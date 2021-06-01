@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wulei/calib/calib_tools/image_data_tools/src/getImagePixel.cpp
+opencv2/opencv.hpp
+-
+fstream
+-
+

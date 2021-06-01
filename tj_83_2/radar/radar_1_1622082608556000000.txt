@@ -1,0 +1,1 @@
+timestame:1622082608.556000000,objid:1,type:0,xpos:0.000000,ypos:0.000000,xspeed:5.360000,yspeed:0.130000,angle:0.620000,distense:175.200000,rcs:24.000000

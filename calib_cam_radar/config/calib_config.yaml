@@ -1,0 +1,101 @@
+%YAML:1.0
+---
+
+#路口的设备总数 4是十字路口，3是T型路口
+mec_num: 4
+#当前数据的设备序号，即哪一台设备所采集的数据
+data_num: 2
+
+
+#tj_83全局原点（一般以1号机毫米波雷达为全局原点）
+lat0: 39.08245244
+lon0: 117.0434205
+height0: -7.038
+
+#tj-83-1雷达GPS坐标:
+lat1: 39.08245244
+lon1: 117.0434205
+height1: -7.038
+
+#tj-83-2雷达GPS坐标:
+lat2: 39.08179735
+lon2: 117.04361432
+height2: -7.104
+
+#tj-83-3雷达GPS坐标:
+lat3: 39.08169408
+lon3: 117.04278509
+height3: -7.072
+
+#tj-83-4雷达GPS坐标:
+lat4: 39.08232708
+lon4: 117.04261154
+height4: -7.100
+
+
+#84全局原点： (一般以1号雷达为原点)
+# lat0: 39.07633051
+# lon0: 117.0462822
+# height0: -6.644
+
+# #84-1雷达原点：
+# lat1: 39.07633051
+# lon1: 117.0462822
+# height1: -6.644
+
+# #84-2雷达原点：
+# lat2: 39.07576076
+# lon2: 117.0464923
+# height2: -6.325
+
+# #84-3雷达原点：
+# lat3: 39.07547653
+# lon3: 117.0456503
+# height3: -6.158
+
+# #84-4雷达原点：
+# lat4: 39.07604811
+# lon4: 117.0453622
+# height4: -6.368
+
+#85全局原点：
+#lat0: 39.07907626
+#lon0: 117.049062
+#height0: -6.121
+
+#85-1雷达原点：
+#lat_radar: 39.07907626
+#lon_radar: 117.049062
+#height_radar: -6.121
+
+#85-2雷达原点：
+#lat_radar: 39.07828341
+#lon_radar: 117.0484839
+#height_radar: -6.262
+
+#85-3雷达原点：
+#lat_radar: 39.07891923
+#lon_radar: 117.0482347
+#height_radar: -6.904
+
+
+#相关文件路径 只需修改calib_path
+
+calib_path: "../../83_2/"
+
+
+image_file: "img.jpg"                    #现场图片
+
+cam_file: "image_points.txt"      #图像标定文件
+cam_reproject_file: "cam_reproject.jpg"  #保存相机标定结果反投影图像
+
+
+radar_file: "radar_calibdata.txt"     #毫米波雷达坐标
+result_file: "result.yaml"              #保存标定结果文件
+
+
+radar_calib_check_file: "matched_rtk_radar_trajectory_all.txt"
+radar_birdview_file: "radar_birdview.jpg" 
+radar_reproject_file: "radar_reproject.jpg" #保存雷达点反投影图像
+
+points_on_road: "points_on_road.txt"

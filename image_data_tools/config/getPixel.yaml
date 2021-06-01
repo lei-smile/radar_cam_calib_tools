@@ -1,0 +1,7 @@
+%YAML:1.0
+---
+calib_path: "../../tj_83_2/"
+
+image_file: "img.png"
+output_file: "image_points.txt"
+

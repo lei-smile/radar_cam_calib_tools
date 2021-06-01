@@ -1,0 +1,2 @@
+timestame:1619470635.420000000,objid:2,type:0,xpos:0.000000,ypos:0.000000,xspeed:-2.080000,yspeed:-0.060000,angle:-8.940000,distense:80.600000,rcs:19.000000
+timestame:1619470635.420000000,objid:4,type:0,xpos:0.000000,ypos:0.000000,xspeed:-1.910000,yspeed:3.910000,angle:21.050000,distense:49.600000,rcs:18.000000
